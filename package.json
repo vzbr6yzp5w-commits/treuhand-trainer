@@ -1,0 +1,24 @@
+{
+  "name": "treuhand-trainer",
+  "version": "1.0.0",
+  "description": "Lern-App für die Treuhänder-Berufsprüfung 2027: Karteikarten (Spaced Repetition), Prüfungen pro Fach, Lernplan",
+  "main": "main.js",
+  "scripts": {
+    "build-data": "node tools/build-data.js",
+    "start": "node tools/build-data.js && electron .",
+    "test": "node test/logic.test.js",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "ch.treuhand.trainer",
+    "productName": "Treuhand Trainer",
+    "files": ["main.js", "src/**", "data/**", "package.json"],
+    "win": { "target": "portable" },
+    "mac": { "target": "dmg" }
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "license": "MIT"
+}
