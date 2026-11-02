@@ -1,51 +1,702 @@
 [
-  {"id":"rw-001","fach":"701","thema":"Bewertung","frage":"Welcher Artikel im OR regelt die Bewertung von Wertschriften mit Börsenkurs?","antwort":"Art. 960b OR: Bewertung zum Börsenkurs am Bilanzstichtag (Kurswert), bei Wertschriften mit Börsenkurs ist eine Wertschwankungsreserve zulässig."},
-  {"id":"rw-002","fach":"701","thema":"Bewertung","frage":"Welcher Artikel regelt die Annahme der Unternehmensfortführung?","antwort":"Art. 958a Abs. 1 OR. Die Einschätzung nimmt bei der AG der Verwaltungsrat vor."},
-  {"id":"rw-003","fach":"701","thema":"Buchführung","frage":"Wie lange müssen Geschäftsbücher und Buchungsbelege aufbewahrt werden und wo steht das?","antwort":"10 Jahre, Art. 958f OR (ab Ende des Geschäftsjahres)."},
-  {"id":"rw-004","fach":"701","thema":"Reserven","frage":"Wie hoch ist die gesetzliche Gewinnreserve und wo ist sie geregelt?","antwort":"Art. 671 OR: 5 % des Jahresgewinns, bis die Reserve 20 % des einbezahlten Aktienkapitals erreicht."},
-  {"id":"rw-005","fach":"701","thema":"Kostenrechnung","frage":"Formel Nutzschwelle (mengenmässig und wertmässig)?","antwort":"Menge = Fixkosten / Deckungsbeitrag pro Stück. Umsatz = Fixkosten / DB-Quote (DB / Nettoerlös). Menge aufrunden."},
-  {"id":"rw-006","fach":"701","thema":"Kostenrechnung","frage":"Wie berechnet man die Menge für einen Zielgewinn?","antwort":"(Fixkosten + Zielgewinn) / Deckungsbeitrag pro Stück. Aufrunden."},
-  {"id":"rw-007","fach":"701","thema":"Kostenrechnung","frage":"Wie entscheidet man bei einem Engpass, welches Produkt bevorzugt wird?","antwort":"Rangfolge nach Deckungsbeitrag pro Engpasseinheit (z. B. DB pro Stunde), nicht nach DB pro Stück."},
-  {"id":"rw-008","fach":"701","thema":"Kostenrechnung","frage":"Wie wird die Preisuntergrenze bei Engpass für ein neues Produkt bestimmt?","antwort":"Variable Kosten + entgangener DB des verdrängten Produkts (DB pro Engpasseinheit × Bearbeitungszeit des neuen Produkts)."},
-  {"id":"rw-009","fach":"701","thema":"Kostenrechnung","frage":"Warum erscheinen im BAB Abweichungen zwischen Fibu und Bebu (sachliche Abgrenzungen)?","antwort":"Stille Reserven (z. B. Warendrittel), kalkulatorische statt bilanzielle Abschreibungen, aktivierte wertvermehrende Investitionen und Bestandesänderungen werden betrieblich objektiv bewertet."},
-  {"id":"rw-010","fach":"701","thema":"Investition","frage":"Formel Kapitalwert (NPV) und Entscheidungsregel?","antwort":"Kapitalwert = Summe der abgezinsten Rückflüsse – Anfangsinvestition (+ abgezinster Restwert). Kapitalwert > 0: Investition lohnt sich beim Kalkulationszinssatz."},
-  {"id":"rw-011","fach":"701","thema":"Investition","frage":"Formel Payback (statisch) und Schwäche?","antwort":"Investition / durchschnittlicher jährlicher Rückfluss. Schwäche: ignoriert Zinsen und Rückflüsse nach dem Payback-Zeitpunkt."},
-  {"id":"rw-012","fach":"701","thema":"Investition","frage":"Was unterscheidet statischen Kostenvergleich und statischen Gewinnvergleich?","antwort":"Kostenvergleich: nur Kosten (inkl. Abschreibung und kalk. Zins auf durchschnittlich gebundenes Kapital). Gewinnvergleich: zusätzlich die Erlöse, gewählt wird der höhere Gewinn."},
-  {"id":"rw-013","fach":"701","thema":"Geldfluss","frage":"Wie leitet man die Geldflussrechnung indirekt ab?","antwort":"Jahresgewinn + Abschreibungen +/- Veränderung Nettoumlaufvermögen = Geldfluss aus Betriebstätigkeit. Dann Investitions- und Finanzierungstätigkeit. Summe = Veränderung der flüssigen Mittel (muss stimmen)."},
-  {"id":"rw-014","fach":"701","thema":"Geldfluss","frage":"Vorzeichenregel Geldflussrechnung für Aktiven und Passiven?","antwort":"Zunahme Aktivum (z. B. Debitoren, Vorräte) = Geldabfluss (-). Abnahme Aktivum = Geldzufluss (+). Zunahme Passivum (z. B. Kreditoren) = Zufluss (+). Abnahme Passivum = Abfluss (-)."},
-  {"id":"rw-015","fach":"701","thema":"Prüfungstechnik","frage":"Was tust du, wenn eine Folgerechnung vom Ergebnis einer nicht lösbaren Teilaufgabe abhängt?","antwort":"Plausiblen Wert annehmen, mit Annahme notieren und weiterrechnen. Folgefehler werden mit «ff» voll bewertet. Nie eine Aufgabe leer lassen."},
-  {"id":"st-001","fach":"702","thema":"Gewinnsteuer","frage":"Wie hoch ist der Gewinnsteuersatz bei der direkten Bundessteuer für juristische Personen?","antwort":"8.5 % auf dem Reingewinn nach Steuern (Art. 68 DBG), d. h. die Steuer ist abzugsfähig als Aufwand."},
-  {"id":"st-002","fach":"702","thema":"Beteiligungsabzug","frage":"Voraussetzungen und Formel des Beteiligungsabzugs (DBG)?","antwort":"Art. 69/70 DBG: Beteiligung von mind. 10 % am Kapital oder mind. 10 % am Gewinn und Reserven oder Verkehrswert mind. CHF 1 Mio. Abzug in % = Nettoertrag aus Beteiligungen / gesamter Reingewinn. Nettoertrag = Ertrag abzüglich Finanzierungs- und Verwaltungsaufwand."},
-  {"id":"st-003","fach":"702","thema":"Gewinnsteuer","frage":"Was sind geldwerte Leistungen und welcher Artikel regelt sie bei juristischen Personen?","antwort":"Verdeckte Gewinnausschüttungen an Aktionäre/Nahestehende ohne angemessene Gegenleistung (Drittvergleich), Art. 58 Abs. 1 lit. b DBG. Aufrechnung zum Gewinn, ggf. Verrechnungssteuer 35 %."},
-  {"id":"st-004","fach":"702","thema":"Verrechnungssteuer","frage":"Verrechnungssteuersatz und Rechtsgrundlage?","antwort":"35 % auf Dividenden und geldwerten Leistungen, Art. 13 Abs. 1 lit. a VStG. Rückzahlung von Kapitaleinlagereserven ist ausgenommen."},
-  {"id":"st-005","fach":"702","thema":"Privatvermögen","frage":"Sind private Kapitalgewinne steuerbar? Ausnahmen?","antwort":"Grundsätzlich steuerfrei (Art. 16 Abs. 3 DBG). Steuerbar sind Grundstückgewinne (Kantonsebene, Art. 12 StHG), Wertpapierhandel von Gewerbsmässigen gilt als selbständige Erwerbstätigkeit."},
-  {"id":"st-006","fach":"702","thema":"Vorsorge","frage":"Wer darf Beiträge in die Säule 3a einzahlen?","antwort":"Personen mit AHV-pflichtigem Erwerbseinkommen in der Schweiz bis Rentenalter (Art. 33 Abs. 1 lit. e DBG, BVV 3). Der Höchstbetrag hängt davon ab, ob eine Pensionskasse besteht (kleine oder grosse 3a). Betrag jährlich in der BVV 3 prüfen."},
-  {"id":"st-007","fach":"702","thema":"MWST","frage":"Normalsatz, reduzierter Satz und Sondersatz Beherbergung (seit 2024)?","antwort":"8.1 % Normalsatz, 2.6 % reduzierter Satz, 3.8 % Sondersatz Beherbergung."},
-  {"id":"st-008","fach":"702","thema":"MWST","frage":"Welche Voraussetzungen hat die Saldosteuersatzmethode?","antwort":"Art. 37 MWSTG: Jahresumsatz höchstens CHF 5.005 Mio. und jährliche Steuerzahllast höchstens CHF 103'000. Vorsteuer wird nicht einzeln abgezogen, Branchensatz gilt auf dem Bruttoumsatz."},
-  {"id":"st-009","fach":"702","thema":"MWST","frage":"Wann kommt das Meldeverfahren zur Anwendung und was ist der Vorteil?","antwort":"Art. 38 MWSTG: Bei Umstrukturierungen und Übertragung eines Unternehmens/Teils. Die Steuer wird nicht bezahlt, sondern gemeldet. Voraussetzung: beide Parteien steuerpflichtig, Betriebsübertragung."},
-  {"id":"st-010","fach":"702","thema":"MWST","frage":"Eigenverbrauch und Einlageentsteuerung: Was gilt?","antwort":"Eigenverbrauch Art. 31 MWSTG: Vorsteuer wird korrigiert, wenn ein Gegenstand nicht mehr für unternehmerische Zwecke verwendet wird. Einlageentsteuerung Art. 32 MWSTG: Vorsteuer kann nachträglich geltend gemacht werden. Abschreibung der Vorsteuer: linear (5 % pro Jahr bei Immobilien, 20 % bei beweglichen Gegenständen)."},
-  {"id":"st-011","fach":"702","thema":"MWST","frage":"Was ist die Bezugsteuer und wer schuldet sie?","antwort":"Art. 45 ff. MWSTG: Leistungsempfänger im Inland schuldet die Steuer auf Dienstleistungen von Leistungserbringern ohne Sitz im Inland (Bezug im Ausland). Gleichzeitig Vorsteuerabzug, wenn berechtigt."},
-  {"id":"st-012","fach":"702","thema":"Prüfungstechnik","frage":"Wie schreibst du Gesetzesangaben in der Prüfung?","antwort":"Immer Gesetz + Artikel + Absatz + Buchstabe (z. B. Art. 69 Abs. 1 DBG). Ohne genaue Angabe gibt es meist keinen Punkt."},
-  {"id":"rv-001","fach":"703","thema":"Sanierung","frage":"Was ist ein hälftiger Kapitalverlust und was muss der Verwaltungsrat tun?","antwort":"Die Hälfte des Aktienkapitals und der gesetzlichen Reserven ist nicht mehr gedeckt (Art. 725a OR). Der Verwaltungsrat muss Massnahmen ergreifen und die Generalversammlung informieren/Sanierungsmassnahmen beantragen. Genaue Fristen im Skript nachlesen."},
-  {"id":"rv-002","fach":"703","thema":"Sanierung","frage":"Was ist eine Überschuldung und wie reagiert der Verwaltungsrat?","antwort":"Art. 725b OR: Forderungen der Gläubiger sind weder zu Fortführungs- noch zu Veräusserungswerten gedeckt. Der Verwaltungsrat benachrichtigt das Gericht, ausser ein Rangrücktritt in genügender Höhe liegt vor oder es besteht begründete Aussicht auf Sanierung."},
-  {"id":"rv-003","fach":"703","thema":"Sanierung","frage":"Welche vier Voraussetzungen hat die Aufwertung von Grundstücken oder Beteiligungen?","antwort":"Art. 725c OR: Kapitalverlust oder Überschuldung liegt vor, Wert ist objektiv höher als Buchwert (Zeitwert), Aufwertung wird in die Aufwertungsreserve gebucht, Bestätigung durch zugelassenen Revisor. Genau im Skript gegenprüfen."},
-  {"id":"rv-004","fach":"703","thema":"Revision","frage":"Wann ist eine ordentliche Revision Pflicht?","antwort":"Art. 727 OR: Publikumsgesellschaften, Konzernrechnungspflicht oder zwei der Grössenkriterien in zwei aufeinanderfolgenden Jahren (Bilanzsumme CHF 20 Mio., Umsatz CHF 40 Mio., 250 Vollzeitstellen)."},
-  {"id":"rv-005","fach":"703","thema":"Revision","frage":"Wann genügt die eingeschränkte Revision und wann ist Opting-out möglich?","antwort":"Art. 727a OR: Wenn keine ordentliche Revision nötig. Opting-out bei höchstens 10 Vollzeitstellen im Jahresdurchschnitt und Zustimmung sämtlicher Aktionäre."},
-  {"id":"rv-006","fach":"703","thema":"Revision","frage":"Was besagt Art. 680 Abs. 2 OR?","antwort":"Verbot der Einlagenrückgewähr: Aktionären dürfen ausser dem Bilanzgewinn und Liquidationsüberschuss keine Einlagen zurückerstattet werden. Darlehen an Aktionäre/Nahestehende müssen dem Drittvergleich standhalten."},
-  {"id":"rv-007","fach":"703","thema":"Unabhängigkeit","frage":"Unterschied Art. 728 und Art. 729 OR?","antwort":"Art. 728: Unabhängigkeit bei der ordentlichen Revision. Art. 729: Unabhängigkeit bei der eingeschränkten Revision (Mitwirkung an der Buchführung ist mit organisatorischer Trennung möglich)."},
-  {"id":"rv-008","fach":"703","thema":"Bericht","frage":"Welche Arten von modifizierten Prüfungsaussagen gibt es bei der eingeschränkten Revision?","antwort":"Eingeschränkte Prüfungsaussage, verneinende Prüfungsaussage (negative Aussage) und Nichtabgabe einer Prüfungsaussage (Disclaimer)."},
-  {"id":"rv-009","fach":"703","thema":"Bericht","frage":"Was ist der Unterschied zwischen Einschränkung und Hinweis im Revisionsbericht?","antwort":"Einschränkung: wesentliche Abweichung vom Gesetz/Statuten, die den Bericht verändert. Hinweis: Hervorhebung (z. B. Kapitalverlust, Überschuldung mit Rangrücktritt), ohne die Prüfungsaussage zu verändern."},
-  {"id":"rv-010","fach":"703","thema":"Prüfungsplanung","frage":"Wie berechnet man die Toleranzwesentlichkeit?","antwort":"Gesamtwesentlichkeit multipliziert mit einem Faktor (üblich 50 % bis 75 %). Faktor aus dem Skript des Revisionsstandards bestätigen."},
-  {"id":"uw-001","fach":"700","thema":"Bewertung","frage":"Praktikermethode und einfache Mittelwertmethode: Formeln?","antwort":"Praktikermethode: (Substanzwert + 2 × Ertragswert) / 3. Mittelwertmethode: (Substanzwert + Ertragswert) / 2."},
-  {"id":"uw-002","fach":"700","thema":"Bewertung","frage":"Weitere Unternehmensbewertungsmethoden ausser Substanz-, Ertrags- und Mittelwert?","antwort":"DCF-Methode, Multiplikatorenmethode, Liquidationswert, Übergewinnmethode (Goodwill-Rentenmethode), Börsenkurs/Vergleichsmethode."},
-  {"id":"uw-003","fach":"700","thema":"Kennzahlen","frage":"Liquiditätsgrad 2 und Zielwert?","antwort":"(Flüssige Mittel + Forderungen) / kurzfristiges Fremdkapital × 100. Richtwert mindestens 100 %."},
-  {"id":"uw-004","fach":"700","thema":"Kennzahlen","frage":"Anlagedeckungsgrad 2 und Zielwert?","antwort":"(Eigenkapital + langfristiges Fremdkapital) / Anlagevermögen × 100. Richtwert mindestens 100 % (goldene Bilanzregel)."},
-  {"id":"uw-005","fach":"700","thema":"Kennzahlen","frage":"Debitorenfrist und Debitorenumschlag?","antwort":"Umschlag = Nettoerlös (inkl. MWST) / durchschnittliche Debitoren. Frist = 365 / Umschlag, d. h. durchschnittliche Zahlungsfrist in Tagen."},
-  {"id":"uw-006","fach":"700","thema":"Kennzahlen","frage":"Verschuldungsfaktor und Zielwert?","antwort":"Nettoverschuldung (Fremdkapital – flüssige Mittel – Forderungen/Wertschriften) / Cashflow. Gesund ist ein Wert unter etwa 3.5."},
-  {"id":"uw-007","fach":"700","thema":"Finanzierung","frage":"Nenne 6 Finanzierungs- oder Liquiditätsmassnahmen für eine angeschlagene Unternehmensgruppe.","antwort":"Aktionärsdarlehen mit Rangrücktritt, Kapitalerhöhung, Bankkredit/Hypothek, Sale-and-lease-back, Factoring, Lagerabbau, Debitorenmanagement/Mahnwesen, Kostenreduktion, Verkauf nicht betriebsnotwendiger Vermögenswerte, Zahlungsfristen mit Lieferanten verhandeln."},
-  {"id":"uw-008","fach":"700","thema":"Finanzierung","frage":"Vor- und Nachteile von Fremdfinanzierung gegenüber Eigenfinanzierung?","antwort":"Vorteile: keine Mitsprache, Zinsen steuerlich abzugsfähig, Hebelwirkung (Leverage). Nachteile: feste Zins-/Rückzahlungspflicht, Abhängigkeit von Bank, Sicherheiten/Covenants, höheres Risiko. Immer Vor- UND Nachteile nennen."},
-  {"id":"uw-009","fach":"700","thema":"Recht","frage":"Unterschied Güterstände der Errungenschaftsbeteiligung, Gütergemeinschaft und Gütertrennung (Art.)?","antwort":"Errungenschaftsbeteiligung (ordentlicher Güterstand) Art. 196 ff. ZGB; Gütergemeinschaft Art. 221 ff. ZGB; Gütertrennung Art. 247 ff. ZGB."},
-  {"id":"uw-010","fach":"700","thema":"Recht","frage":"Aufgaben des Willensvollstreckers (Art. 518 ZGB)?","antwort":"Nachlass verwalten, Schulden bezahlen, Vermächtnisse ausrichten, Teilung nach Vorschrift des Erblassers oder Gesetzes ausführen, Erbschaftsinventar, Vertretung des Nachlasses."},
-  {"id":"uw-011","fach":"700","thema":"Recht","frage":"Was ist der Mantelhandel (Mantelhandel / Kauf einer inaktiven Gesellschaft) steuerlich/rechtlich?","antwort":"Wirtschaftliche Neugründung: Kauf einer inaktiven Gesellschaft (Mantel) ohne Geschäftsbetrieb. Rechtlich als Neugründung zu behandeln (Art. 684 OR) mit Offenlegung/Sacheinlage-Regeln. Genaue Rechtsfolgen im Skript prüfen."},
-  {"id":"uw-012","fach":"700","thema":"Prüfungstechnik","frage":"Wie baust du eine Antwort zu «beurteilen» oder «begründen» auf?","antwort":"Aussage + Begründung in einem Satz «weil … deshalb …» + ggf. Gesetzesartikel. Zahlen allein geben keine Punkte für die Beurteilung."}
+{
+"id": "rw-001",
+"fach": "701",
+"thema": "Bewertung",
+"frage": "Welcher Artikel im OR regelt die Bewertung von Wertschriften mit Börsenkurs?",
+"antwort": "Art. 960b OR: Bewertung zum Börsenkurs am Bilanzstichtag (Kurswert), bei Wertschriften mit Börsenkurs ist eine Wertschwankungsreserve zulässig."
+},
+{
+"id": "rw-002",
+"fach": "701",
+"thema": "Bewertung",
+"frage": "Welcher Artikel regelt die Annahme der Unternehmensfortführung?",
+"antwort": "Art. 958a Abs. 1 OR. Die Einschätzung nimmt bei der AG der Verwaltungsrat vor."
+},
+{
+"id": "rw-003",
+"fach": "701",
+"thema": "Buchführung",
+"frage": "Wie lange müssen Geschäftsbücher und Buchungsbelege aufbewahrt werden und wo steht das?",
+"antwort": "10 Jahre, Art. 958f OR (ab Ende des Geschäftsjahres)."
+},
+{
+"id": "rw-004",
+"fach": "701",
+"thema": "Reserven",
+"frage": "Wie hoch ist die gesetzliche Gewinnreserve und wo ist sie geregelt?",
+"antwort": "Art. 671 OR: 5 % des Jahresgewinns, bis die Reserve 20 % des einbezahlten Aktienkapitals erreicht."
+},
+{
+"id": "rw-005",
+"fach": "701",
+"thema": "Kostenrechnung",
+"frage": "Formel Nutzschwelle (mengenmässig und wertmässig)?",
+"antwort": "Menge = Fixkosten / Deckungsbeitrag pro Stück. Umsatz = Fixkosten / DB-Quote (DB / Nettoerlös). Menge aufrunden."
+},
+{
+"id": "rw-006",
+"fach": "701",
+"thema": "Kostenrechnung",
+"frage": "Wie berechnet man die Menge für einen Zielgewinn?",
+"antwort": "(Fixkosten + Zielgewinn) / Deckungsbeitrag pro Stück. Aufrunden."
+},
+{
+"id": "rw-007",
+"fach": "701",
+"thema": "Kostenrechnung",
+"frage": "Wie entscheidet man bei einem Engpass, welches Produkt bevorzugt wird?",
+"antwort": "Rangfolge nach Deckungsbeitrag pro Engpasseinheit (z. B. DB pro Stunde), nicht nach DB pro Stück."
+},
+{
+"id": "rw-008",
+"fach": "701",
+"thema": "Kostenrechnung",
+"frage": "Wie wird die Preisuntergrenze bei Engpass für ein neues Produkt bestimmt?",
+"antwort": "Variable Kosten + entgangener DB des verdrängten Produkts (DB pro Engpasseinheit × Bearbeitungszeit des neuen Produkts)."
+},
+{
+"id": "rw-009",
+"fach": "701",
+"thema": "Kostenrechnung",
+"frage": "Warum erscheinen im BAB Abweichungen zwischen Fibu und Bebu (sachliche Abgrenzungen)?",
+"antwort": "Stille Reserven (z. B. Warendrittel), kalkulatorische statt bilanzielle Abschreibungen, aktivierte wertvermehrende Investitionen und Bestandesänderungen werden betrieblich objektiv bewertet."
+},
+{
+"id": "rw-010",
+"fach": "701",
+"thema": "Investition",
+"frage": "Formel Kapitalwert (NPV) und Entscheidungsregel?",
+"antwort": "Kapitalwert = Summe der abgezinsten Rückflüsse – Anfangsinvestition (+ abgezinster Restwert). Kapitalwert > 0: Investition lohnt sich beim Kalkulationszinssatz."
+},
+{
+"id": "rw-011",
+"fach": "701",
+"thema": "Investition",
+"frage": "Formel Payback (statisch) und Schwäche?",
+"antwort": "Investition / durchschnittlicher jährlicher Rückfluss. Schwäche: ignoriert Zinsen und Rückflüsse nach dem Payback-Zeitpunkt."
+},
+{
+"id": "rw-012",
+"fach": "701",
+"thema": "Investition",
+"frage": "Was unterscheidet statischen Kostenvergleich und statischen Gewinnvergleich?",
+"antwort": "Kostenvergleich: nur Kosten (inkl. Abschreibung und kalk. Zins auf durchschnittlich gebundenes Kapital). Gewinnvergleich: zusätzlich die Erlöse, gewählt wird der höhere Gewinn."
+},
+{
+"id": "rw-013",
+"fach": "701",
+"thema": "Geldfluss",
+"frage": "Wie leitet man die Geldflussrechnung indirekt ab?",
+"antwort": "Jahresgewinn + Abschreibungen +/- Veränderung Nettoumlaufvermögen = Geldfluss aus Betriebstätigkeit. Dann Investitions- und Finanzierungstätigkeit. Summe = Veränderung der flüssigen Mittel (muss stimmen)."
+},
+{
+"id": "rw-014",
+"fach": "701",
+"thema": "Geldfluss",
+"frage": "Vorzeichenregel Geldflussrechnung für Aktiven und Passiven?",
+"antwort": "Zunahme Aktivum (z. B. Debitoren, Vorräte) = Geldabfluss (-). Abnahme Aktivum = Geldzufluss (+). Zunahme Passivum (z. B. Kreditoren) = Zufluss (+). Abnahme Passivum = Abfluss (-)."
+},
+{
+"id": "rw-015",
+"fach": "701",
+"thema": "Prüfungstechnik",
+"frage": "Was tust du, wenn eine Folgerechnung vom Ergebnis einer nicht lösbaren Teilaufgabe abhängt?",
+"antwort": "Plausiblen Wert annehmen, mit Annahme notieren und weiterrechnen. Folgefehler werden mit «ff» voll bewertet. Nie eine Aufgabe leer lassen."
+},
+{
+"id": "st-001",
+"fach": "702",
+"thema": "Gewinnsteuer",
+"frage": "Wie hoch ist der Gewinnsteuersatz bei der direkten Bundessteuer für juristische Personen?",
+"antwort": "8.5 % auf dem Reingewinn nach Steuern (Art. 68 DBG), d. h. die Steuer ist abzugsfähig als Aufwand."
+},
+{
+"id": "st-002",
+"fach": "702",
+"thema": "Beteiligungsabzug",
+"frage": "Voraussetzungen und Formel des Beteiligungsabzugs (DBG)?",
+"antwort": "Art. 69/70 DBG: Beteiligung von mind. 10 % am Kapital oder mind. 10 % am Gewinn und Reserven oder Verkehrswert mind. CHF 1 Mio. Abzug in % = Nettoertrag aus Beteiligungen / gesamter Reingewinn. Nettoertrag = Ertrag abzüglich Finanzierungs- und Verwaltungsaufwand."
+},
+{
+"id": "st-003",
+"fach": "702",
+"thema": "Gewinnsteuer",
+"frage": "Was sind geldwerte Leistungen und welcher Artikel regelt sie bei juristischen Personen?",
+"antwort": "Verdeckte Gewinnausschüttungen an Aktionäre/Nahestehende ohne angemessene Gegenleistung (Drittvergleich), Art. 58 Abs. 1 lit. b DBG. Aufrechnung zum Gewinn, ggf. Verrechnungssteuer 35 %."
+},
+{
+"id": "st-004",
+"fach": "702",
+"thema": "Verrechnungssteuer",
+"frage": "Verrechnungssteuersatz und Rechtsgrundlage?",
+"antwort": "35 % auf Dividenden und geldwerten Leistungen, Art. 13 Abs. 1 lit. a VStG. Rückzahlung von Kapitaleinlagereserven ist ausgenommen."
+},
+{
+"id": "st-005",
+"fach": "702",
+"thema": "Privatvermögen",
+"frage": "Sind private Kapitalgewinne steuerbar? Ausnahmen?",
+"antwort": "Grundsätzlich steuerfrei (Art. 16 Abs. 3 DBG). Steuerbar sind Grundstückgewinne (Kantonsebene, Art. 12 StHG), Wertpapierhandel von Gewerbsmässigen gilt als selbständige Erwerbstätigkeit."
+},
+{
+"id": "st-006",
+"fach": "702",
+"thema": "Vorsorge",
+"frage": "Wer darf Beiträge in die Säule 3a einzahlen?",
+"antwort": "Personen mit AHV-pflichtigem Erwerbseinkommen in der Schweiz bis Rentenalter (Art. 33 Abs. 1 lit. e DBG, BVV 3). Der Höchstbetrag hängt davon ab, ob eine Pensionskasse besteht (kleine oder grosse 3a). Betrag jährlich in der BVV 3 prüfen."
+},
+{
+"id": "st-007",
+"fach": "702",
+"thema": "MWST",
+"frage": "Normalsatz, reduzierter Satz und Sondersatz Beherbergung (seit 2024)?",
+"antwort": "8.1 % Normalsatz, 2.6 % reduzierter Satz, 3.8 % Sondersatz Beherbergung."
+},
+{
+"id": "st-008",
+"fach": "702",
+"thema": "MWST",
+"frage": "Welche Voraussetzungen hat die Saldosteuersatzmethode?",
+"antwort": "Art. 37 MWSTG: Jahresumsatz höchstens CHF 5.005 Mio. und jährliche Steuerzahllast höchstens CHF 103'000. Vorsteuer wird nicht einzeln abgezogen, Branchensatz gilt auf dem Bruttoumsatz."
+},
+{
+"id": "st-009",
+"fach": "702",
+"thema": "MWST",
+"frage": "Wann kommt das Meldeverfahren zur Anwendung und was ist der Vorteil?",
+"antwort": "Art. 38 MWSTG: Bei Umstrukturierungen und Übertragung eines Unternehmens/Teils. Die Steuer wird nicht bezahlt, sondern gemeldet. Voraussetzung: beide Parteien steuerpflichtig, Betriebsübertragung."
+},
+{
+"id": "st-010",
+"fach": "702",
+"thema": "MWST",
+"frage": "Eigenverbrauch und Einlageentsteuerung: Was gilt?",
+"antwort": "Eigenverbrauch Art. 31 MWSTG: Vorsteuer wird korrigiert, wenn ein Gegenstand nicht mehr für unternehmerische Zwecke verwendet wird. Einlageentsteuerung Art. 32 MWSTG: Vorsteuer kann nachträglich geltend gemacht werden. Abschreibung der Vorsteuer: linear (5 % pro Jahr bei Immobilien, 20 % bei beweglichen Gegenständen)."
+},
+{
+"id": "st-011",
+"fach": "702",
+"thema": "MWST",
+"frage": "Was ist die Bezugsteuer und wer schuldet sie?",
+"antwort": "Art. 45 ff. MWSTG: Leistungsempfänger im Inland schuldet die Steuer auf Dienstleistungen von Leistungserbringern ohne Sitz im Inland (Bezug im Ausland). Gleichzeitig Vorsteuerabzug, wenn berechtigt."
+},
+{
+"id": "st-012",
+"fach": "702",
+"thema": "Prüfungstechnik",
+"frage": "Wie schreibst du Gesetzesangaben in der Prüfung?",
+"antwort": "Immer Gesetz + Artikel + Absatz + Buchstabe (z. B. Art. 69 Abs. 1 DBG). Ohne genaue Angabe gibt es meist keinen Punkt."
+},
+{
+"id": "rv-001",
+"fach": "703",
+"thema": "Sanierung",
+"frage": "Was ist ein hälftiger Kapitalverlust und was muss der Verwaltungsrat tun?",
+"antwort": "Die Hälfte des Aktienkapitals und der gesetzlichen Reserven ist nicht mehr gedeckt (Art. 725a OR). Der Verwaltungsrat muss Massnahmen ergreifen und die Generalversammlung informieren/Sanierungsmassnahmen beantragen. Genaue Fristen im Skript nachlesen."
+},
+{
+"id": "rv-002",
+"fach": "703",
+"thema": "Sanierung",
+"frage": "Was ist eine Überschuldung und wie reagiert der Verwaltungsrat?",
+"antwort": "Art. 725b OR: Forderungen der Gläubiger sind weder zu Fortführungs- noch zu Veräusserungswerten gedeckt. Der Verwaltungsrat benachrichtigt das Gericht, ausser ein Rangrücktritt in genügender Höhe liegt vor oder es besteht begründete Aussicht auf Sanierung."
+},
+{
+"id": "rv-003",
+"fach": "703",
+"thema": "Sanierung",
+"frage": "Welche vier Voraussetzungen hat die Aufwertung von Grundstücken oder Beteiligungen?",
+"antwort": "Art. 725c OR: Kapitalverlust oder Überschuldung liegt vor, Wert ist objektiv höher als Buchwert (Zeitwert), Aufwertung wird in die Aufwertungsreserve gebucht, Bestätigung durch zugelassenen Revisor. Genau im Skript gegenprüfen."
+},
+{
+"id": "rv-004",
+"fach": "703",
+"thema": "Revision",
+"frage": "Wann ist eine ordentliche Revision Pflicht?",
+"antwort": "Art. 727 OR: Publikumsgesellschaften, Konzernrechnungspflicht oder zwei der Grössenkriterien in zwei aufeinanderfolgenden Jahren (Bilanzsumme CHF 20 Mio., Umsatz CHF 40 Mio., 250 Vollzeitstellen)."
+},
+{
+"id": "rv-005",
+"fach": "703",
+"thema": "Revision",
+"frage": "Wann genügt die eingeschränkte Revision und wann ist Opting-out möglich?",
+"antwort": "Art. 727a OR: Wenn keine ordentliche Revision nötig. Opting-out bei höchstens 10 Vollzeitstellen im Jahresdurchschnitt und Zustimmung sämtlicher Aktionäre."
+},
+{
+"id": "rv-006",
+"fach": "703",
+"thema": "Revision",
+"frage": "Was besagt Art. 680 Abs. 2 OR?",
+"antwort": "Verbot der Einlagenrückgewähr: Aktionären dürfen ausser dem Bilanzgewinn und Liquidationsüberschuss keine Einlagen zurückerstattet werden. Darlehen an Aktionäre/Nahestehende müssen dem Drittvergleich standhalten."
+},
+{
+"id": "rv-007",
+"fach": "703",
+"thema": "Unabhängigkeit",
+"frage": "Unterschied Art. 728 und Art. 729 OR?",
+"antwort": "Art. 728: Unabhängigkeit bei der ordentlichen Revision. Art. 729: Unabhängigkeit bei der eingeschränkten Revision (Mitwirkung an der Buchführung ist mit organisatorischer Trennung möglich)."
+},
+{
+"id": "rv-008",
+"fach": "703",
+"thema": "Bericht",
+"frage": "Welche Arten von modifizierten Prüfungsaussagen gibt es bei der eingeschränkten Revision?",
+"antwort": "Eingeschränkte Prüfungsaussage, verneinende Prüfungsaussage (negative Aussage) und Nichtabgabe einer Prüfungsaussage (Disclaimer)."
+},
+{
+"id": "rv-009",
+"fach": "703",
+"thema": "Bericht",
+"frage": "Was ist der Unterschied zwischen Einschränkung und Hinweis im Revisionsbericht?",
+"antwort": "Einschränkung: wesentliche Abweichung vom Gesetz/Statuten, die den Bericht verändert. Hinweis: Hervorhebung (z. B. Kapitalverlust, Überschuldung mit Rangrücktritt), ohne die Prüfungsaussage zu verändern."
+},
+{
+"id": "rv-010",
+"fach": "703",
+"thema": "Prüfungsplanung",
+"frage": "Wie berechnet man die Toleranzwesentlichkeit?",
+"antwort": "Gesamtwesentlichkeit multipliziert mit einem Faktor (üblich 50 % bis 75 %). Faktor aus dem Skript des Revisionsstandards bestätigen."
+},
+{
+"id": "uw-001",
+"fach": "700",
+"thema": "Bewertung",
+"frage": "Praktikermethode und einfache Mittelwertmethode: Formeln?",
+"antwort": "Praktikermethode: (Substanzwert + 2 × Ertragswert) / 3. Mittelwertmethode: (Substanzwert + Ertragswert) / 2."
+},
+{
+"id": "uw-002",
+"fach": "700",
+"thema": "Bewertung",
+"frage": "Weitere Unternehmensbewertungsmethoden ausser Substanz-, Ertrags- und Mittelwert?",
+"antwort": "DCF-Methode, Multiplikatorenmethode, Liquidationswert, Übergewinnmethode (Goodwill-Rentenmethode), Börsenkurs/Vergleichsmethode."
+},
+{
+"id": "uw-003",
+"fach": "700",
+"thema": "Kennzahlen",
+"frage": "Liquiditätsgrad 2 und Zielwert?",
+"antwort": "(Flüssige Mittel + Forderungen) / kurzfristiges Fremdkapital × 100. Richtwert mindestens 100 %."
+},
+{
+"id": "uw-004",
+"fach": "700",
+"thema": "Kennzahlen",
+"frage": "Anlagedeckungsgrad 2 und Zielwert?",
+"antwort": "(Eigenkapital + langfristiges Fremdkapital) / Anlagevermögen × 100. Richtwert mindestens 100 % (goldene Bilanzregel)."
+},
+{
+"id": "uw-005",
+"fach": "700",
+"thema": "Kennzahlen",
+"frage": "Debitorenfrist und Debitorenumschlag?",
+"antwort": "Umschlag = Nettoerlös (inkl. MWST) / durchschnittliche Debitoren. Frist = 365 / Umschlag, d. h. durchschnittliche Zahlungsfrist in Tagen."
+},
+{
+"id": "uw-006",
+"fach": "700",
+"thema": "Kennzahlen",
+"frage": "Verschuldungsfaktor und Zielwert?",
+"antwort": "Nettoverschuldung (Fremdkapital – flüssige Mittel – Forderungen/Wertschriften) / Cashflow. Gesund ist ein Wert unter etwa 3.5."
+},
+{
+"id": "uw-007",
+"fach": "700",
+"thema": "Finanzierung",
+"frage": "Nenne 6 Finanzierungs- oder Liquiditätsmassnahmen für eine angeschlagene Unternehmensgruppe.",
+"antwort": "Aktionärsdarlehen mit Rangrücktritt, Kapitalerhöhung, Bankkredit/Hypothek, Sale-and-lease-back, Factoring, Lagerabbau, Debitorenmanagement/Mahnwesen, Kostenreduktion, Verkauf nicht betriebsnotwendiger Vermögenswerte, Zahlungsfristen mit Lieferanten verhandeln."
+},
+{
+"id": "uw-008",
+"fach": "700",
+"thema": "Finanzierung",
+"frage": "Vor- und Nachteile von Fremdfinanzierung gegenüber Eigenfinanzierung?",
+"antwort": "Vorteile: keine Mitsprache, Zinsen steuerlich abzugsfähig, Hebelwirkung (Leverage). Nachteile: feste Zins-/Rückzahlungspflicht, Abhängigkeit von Bank, Sicherheiten/Covenants, höheres Risiko. Immer Vor- UND Nachteile nennen."
+},
+{
+"id": "uw-009",
+"fach": "700",
+"thema": "Recht",
+"frage": "Unterschied Güterstände der Errungenschaftsbeteiligung, Gütergemeinschaft und Gütertrennung (Art.)?",
+"antwort": "Errungenschaftsbeteiligung (ordentlicher Güterstand) Art. 196 ff. ZGB; Gütergemeinschaft Art. 221 ff. ZGB; Gütertrennung Art. 247 ff. ZGB."
+},
+{
+"id": "uw-010",
+"fach": "700",
+"thema": "Recht",
+"frage": "Aufgaben des Willensvollstreckers (Art. 518 ZGB)?",
+"antwort": "Nachlass verwalten, Schulden bezahlen, Vermächtnisse ausrichten, Teilung nach Vorschrift des Erblassers oder Gesetzes ausführen, Erbschaftsinventar, Vertretung des Nachlasses."
+},
+{
+"id": "uw-011",
+"fach": "700",
+"thema": "Recht",
+"frage": "Was ist der Mantelhandel (Mantelhandel / Kauf einer inaktiven Gesellschaft) steuerlich/rechtlich?",
+"antwort": "Wirtschaftliche Neugründung: Kauf einer inaktiven Gesellschaft (Mantel) ohne Geschäftsbetrieb. Rechtlich als Neugründung zu behandeln (Art. 684 OR) mit Offenlegung/Sacheinlage-Regeln. Genaue Rechtsfolgen im Skript prüfen."
+},
+{
+"id": "uw-012",
+"fach": "700",
+"thema": "Prüfungstechnik",
+"frage": "Wie baust du eine Antwort zu «beurteilen» oder «begründen» auf?",
+"antwort": "Aussage + Begründung in einem Satz «weil … deshalb …» + ggf. Gesetzesartikel. Zahlen allein geben keine Punkte für die Beurteilung."
+},
+{
+"id": "rw-016",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Obligationenanleihe: Wie berechnest du Agio und Bankkommission? (Beispiel 5 Mio zu 103 %, Kommission 2 %)",
+"antwort": "Agio = Nennwert × (Emissionspreis – 100 %) = 5'000'000 × 3 % = 150'000. Die Kommission wird auf den Gesamtbetrag zum Emissionspreis berechnet: 2 % × 5'150'000 = 103'000. Verbleibendes Agio = 150'000 – 103'000 = 47'000 (passiviert, Obligationenagio)."
+},
+{
+"id": "rw-017",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Obligationenzins 3 % auf 3 Mio: Buchung bei Fälligkeit und wann ist die Verrechnungssteuer fällig?",
+"antwort": "Finanzaufwand an Fällige Obligationenzinsen 90'000. VST 35 % = 31'500 (Rest 58'500 an die Obligationäre). VST muss innert 30 Tagen nach Fälligkeit der Leistung an die ESTV überwiesen werden, sonst Verzugszins."
+},
+{
+"id": "rw-018",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Wie werden Kosten einer Anleiheemission (Anwälte, Notar, Prospekt) behandelt, wenn sie aktiviert werden?",
+"antwort": "Aktivierung als Aufwand Anleihensemission, Verrechnung mit dem verbleibenden Obligationenagio, Rest linear über die Laufzeit der Anleihe abschreiben (Beispiel: 62'000 – 47'000 = 15'000 / 5 Jahre = 3'000 pro Jahr, bei 4 Monaten 1'000)."
+},
+{
+"id": "rw-019",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Kauf von Warenlager vom Konkursamt für CHF 51'888 inkl. 8.1 % MWST: Zu welchem Wert verbuchen und was gilt per Jahresende?",
+"antwort": "Warenvorrat 48'000 (51'888 / 1.081), Vorsteuer separat. Bewertung höchstens zu Anschaffungs- oder Herstellungskosten (Art. 960a OR), auch wenn der Marktwert höher ist (hier 85'000 → bleibt 48'000)."
+},
+{
+"id": "rw-020",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Wertschriften mit Börsenkurs: Bewertung und Schwankungsreserve?",
+"antwort": "Art. 960b Abs. 1 OR: Bewertung zum Kurswert am Bilanzstichtag zulässig. Schwankungsreserve = Differenz Kurswert – tieferer Bilanzwert (stille Reserve). Steuerlich wird eine solche Schwankungsreserve nicht anerkannt, weil sie nicht geschäftsmässig begründet ist (Massgeblichkeit mit Korrekturen)."
+},
+{
+"id": "rw-021",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Reine Methode bei Wertschriften: Wie wird der Kauf von Aktien gebucht?",
+"antwort": "Wertschriften an Bank zum Kurswert (z. B. 2'680 × 30 = 80'400); die Spesen (Differenz zur Bankbelastung, hier 1'052) gehen direkt in den Finanzaufwand."
+},
+{
+"id": "rw-022",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Liegenschaftsbuchhaltung 3-Topf-Methode (MWST): Was gehört in die Töpfe A, B, C und wie viel Vorsteuer ist abziehbar?",
+"antwort": "A: Vorsteuern auf steuerbare (optierte) Leistungen → 100 % abziehbar. B: ausgenommene (nicht optierte) Leistungen → 0 %. C: nicht direkt zuordenbar (gemischt) → Aufteilung nach Schlüssel, z. B. Flächenanteil (Beispiel: 1'670 m² von 4'670 m² nicht optiert = 35.76 % → 64.24 % abziehbar)."
+},
+{
+"id": "rw-023",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Umbau mit wertvermehrenden und werterhaltenden Kosten: Wie wird ein Rechnungsbetrag aufgeteilt (Beispiel 248'630 inkl. MWST, 40 % wertvermehrend)?",
+"antwort": "Zuerst MWST herausrechnen: 248'630 / 1.081 = 230'000, Vorsteuer 18'630. Wertvermehrend 40 % = 92'000 → aktivieren (Liegenschaft). Rest 138'000 → URE/Unterhalt (Aufwand)."
+},
+{
+"id": "rw-024",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Interne Verrechnung von Miete an eigene Gesellschaft oder an den Hauptaktionär: MWST?",
+"antwort": "Interne Verrechnungen (Marktmiete für Eigennutzung) lösen keine Umsatzsteuer aus und sind mit Code 0 (ohne MWST) zu buchen; bei optierten Liegenschaften darf der Vorsteuerabzug nicht verloren gehen, ein Bezug durch Nahestehende (Aktionär) ist zu Marktmiete abzurechnen. Genaue Behandlung im Skript prüfen."
+},
+{
+"id": "rw-025",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Ersatzbeschaffung: Wie bildest du die Rückstellung und wie löst du sie auf?",
+"antwort": "Verkauf: Kasse an mobile Sachanlagen (Buchwert) und Gewinn aus Veräusserung. Rückstellung Ersatzbeschaffung = stille Reserven (Art. 64 Abs. 2 DBG). Bei Ersatz: Rückstellung gegen Abschreibung auf dem Ersatzobjekt bis zum Buchwert des ersetzten Objekts verwenden. Nicht mehr begründete Rückstellung: Handelsrechtlich keine Pflicht zur Auflösung (Art. 960e Abs. 4 OR), steuerlich Aufrechnung zum Geschäftsertrag (Art. 63 Abs. 2 DBG)."
+},
+{
+"id": "rw-026",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Massgeblichkeitsprinzip: Was besagt es und wo gibt es Korrekturen?",
+"antwort": "Die nach den handelsrechtlichen Grundsätzen ordnungsgemäss geführte Buchhaltung ist für die steuerliche Gewinnermittlung massgebend. Korrekturen nur mit gesetzlicher Grundlage, v. a. bei stillen Reserven (Rückstellungen, Abschreibungen über die zulässigen Sätze). Handelsrecht: Vorsichtsprinzip/Gläubigerschutz; Steuerrecht: wirtschaftliche Leistungsfähigkeit."
+},
+{
+"id": "rw-027",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "IKS: Wann muss es geprüft werden und wer ist verantwortlich?",
+"antwort": "Bei ordentlicher Revisionspflicht (Art. 728a OR). Verwaltungsrat: Verantwortung, dass ein IKS vorhanden ist. Geschäftsleitung: operative Umsetzung. Revisionsstelle prüft nur, ob es existiert (nicht Vollständigkeit/Korrektheit) und berichtet. Pflicht gilt nicht für Personengesellschaften. Qualitätsanforderungen: Nachvollziehbarkeit, Wirksamkeit, Effizienz."
+},
+{
+"id": "rw-028",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Leverage-Effekt: Wann steigt die Eigenkapitalrendite durch Fremdfinanzierung?",
+"antwort": "Wenn die Gesamtkapitalrendite über dem Fremdkapitalzinssatz liegt. Beispiel: GKR 7 %, Kredit zu 4 % → EK-Rendite steigt (hier von 9 % durch zusätzliches FK weiter)."
+},
+{
+"id": "rw-029",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Kennzahlen: Formeln Eigenkapitalrendite, Gesamtkapitalrendite, Eigenkapitalquote, Anlageintensität",
+"antwort": "EK-Rendite = Gewinn / Eigenkapital. GK-Rendite = (Gewinn + Zinsaufwand) / Gesamtkapital. EK-Quote = Eigenkapital / Bilanzsumme. Anlageintensität = Anlagevermögen / Bilanzsumme."
+},
+{
+"id": "rw-030",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Leasing: Unterschied operatives und Finanzierungsleasing (Swiss GAAP FER 13) und Auswirkung auf Kennzahlen",
+"antwort": "Finanzierungsleasing: Aktivierung des Objekts und Passivierung der Leasingverbindlichkeit, Aufwand = Abschreibung + Zins (höher als die Rate in den ersten Jahren) → Fremdkapital steigt, Gewinn/Cashflow sinken, Zinsdeckungs- und Verschuldungsfaktor werden schlechter. Operatives Leasing (mietähnlich, auch nach OR möglich): Leasingrate = Aufwand."
+},
+{
+"id": "rw-031",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Dynamische Investitionsrechnung: Entscheidungsregeln Kapitalwert, Annuität, IRR, Payback",
+"antwort": "Kapitalwert > 0, Annuität = Überschuss, interner Ertragssatz > geforderter Zinssatz, dynamischer Payback < Lebensdauer → Investition akzeptabel. Tieferer Cashflow: NPV, Annuität, IRR sinken, Payback steigt. Liquidationswert: NPV, Annuität, IRR steigen, Payback sinkt. Grossrevision: NPV, Annuität, IRR sinken, Payback steigt."
+},
+{
+"id": "rw-032",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Statische Investitionsrechnung: Kostenvergleich, Gewinnvergleich, Payback – Formeln",
+"antwort": "Kosten = Abschreibung (Anschaffung – Restwert) / Nutzungsdauer + Zins auf durchschnittlich gebundenes Kapital (Anschaffung / 2 × Zinssatz) + Betriebskosten. Gewinn = Erlös – Kosten. Payback = investiertes Kapital / jährlicher Cashflow (Gewinn + Abschreibung)."
+},
+{
+"id": "rw-033",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Betriebsabrechnung: Wie ermittelst du die Nutzschwelle und das Umsatzziel bei Zielrendite?",
+"antwort": "Nutzschwelle = Fixkosten / DB-Marge (DB-Marge = 1 – variable Kosten in % vom Umsatz). Umsatzziel bei Umsatzrendite r: Fixkosten / (DB-Marge – r). Beispiel: 3'500 / 0.275 = 12'727; mit 5 %: 3'500 / 0.225 = 15'556 (TCHF)."
+},
+{
+"id": "rw-034",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Überleitung Bebu → Fibu: Wie behandelst du Vorräte (steuerliches Warendrittel) und Abschreibungen?",
+"antwort": "Betriebsergebnis Bebu ± sachliche Abgrenzungen: Einzelmaterial (Bebu bewertet zu 100 %, Fibu mit Warendrittel: Fibu-Bestand = 2/3) und Abschreibungen (Fibu gebucht vs. kalkulatorisch). Jede Abgrenzung einzeln ausweisen, Zwischenergebnisse korrekt benennen."
+},
+{
+"id": "rw-035",
+"fach": "701",
+"thema": "Prüfung 2025",
+"frage": "Teilkosten- vs. Vollkostenentscheid bei Zusatzauftrag: Wann annehmen?",
+"antwort": "Bei freier Kapazität nach Teilkosten: Auftrag annehmen, wenn der Deckungsbeitrag die zusätzlich anfallenden Fixkosten übersteigt (Beispiel: Erlös 230'000 – variable Kosten 124'000 = DB 106'000 > zusätzliche Fixkosten 60'000). Vollkostenbetrachtung allein würde ablehnen."
+},
+{
+"id": "st-013",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "MWST Wechsel Saldosteuersatz → effektive Methode: Was ist die Einlageentsteuerung?",
+"antwort": "Beim Wechsel können noch nicht verbrauchte Waren/Betriebsmittel entsteuert werden (Art. 32 MWSTG; fiktiver Vorsteuerabzug bei Waren aus Urproduktion Art. 28 Abs. 2 MWSTG). Neuware 0 % Abschreibung; Betriebsmittel je Jahr ab Inbetriebnahme abschreiben (Beispiel IT: 2 Jahre = 40 %)."
+},
+{
+"id": "st-014",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Bezugssteuer: Wann ist sie geschuldet?",
+"antwort": "Dienstleistungen von Unternehmen mit Sitz im Ausland (Art. 45 Abs. 1 lit. a MWSTG) und bestimmte Inlandleistungen nicht im Register eingetragener Leistungserbringer (z. B. Emissionszertifikate, lit. e). Referate/Vorträge im Inland: Ort der Leistung dort, wo sie erbracht wird (Art. 8 Abs. 2 lit. c MWSTG) → keine Bezugssteuer. Warenlieferung aus dem Ausland: Einfuhrsteuer statt Bezugssteuer."
+},
+{
+"id": "st-015",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "MWST: Subventionen und Spenden – Behandlung?",
+"antwort": "Subventionen gelten nicht als Entgelt (Art. 18 Abs. 2 lit. a MWSTG, kein Umsatz). Vorsteuerkürzung im Verhältnis zur Subvention (Art. 33 Abs. 2 MWSTG): Beispiel Subvention 43'200 / 180'000 = 24 % Kürzung."
+},
+{
+"id": "st-016",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Privatanteil Geschäftsfahrzeug: Pauschale und Auswirkungen (Lohnausweis, MWST, Steuern)?",
+"antwort": "Pauschal 0.9 % pro Monat (10.8 % pro Jahr) vom Kaufpreis exkl. MWST, mind. CHF 150 pro Monat. Lohnausweis Ziff. 2.2, Feld F (unentgeltliche Beförderung Wohn-/Arbeitsort) ankreuzen, Bemerkung bei unterjähriger Nutzung. MWST: Privatanteil zum Normalsatz als Umsatz. Steuererklärung: Arbeitswegabzug entfällt."
+},
+{
+"id": "st-017",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Einspracheverfahren dBSt: Frist, Form, Kosten, Rechtsmittel?",
+"antwort": "Frist 30 Tage ab Zustellung (Art. 132 Abs. 1 DBG, Fristbeginn Folgetag; fällt das Ende auf Wochenende/Feiertag → nächster Werktag, Art. 133 Abs. 1 DBG zur Fristberechnung im Skript prüfen). Schriftlich, Begründung nicht zwingend (ausser bei Ermessensveranlagung, Art. 132 Abs. 3 DBG). Kostenlos (Art. 135 Abs. 3 DBG). Weiter: Beschwerde an die Steuerrekursbehörde (Rekurskommission), kostenpflichtig. Berichtigung von Schreib-/Rechnungsfehlern: Art. 150 Abs. 1 DBG."
+},
+{
+"id": "st-018",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Fristwiederherstellung im Steuerverfahren: Voraussetzung?",
+"antwort": "Wenn der Steuerpflichtige durch erhebliche Gründe an der rechtzeitigen Einreichung verhindert war (z. B. Spitalaufenthalt), kann die Frist wiederhergestellt werden; Gesuch innert 30 Tagen nach Wegfall des Hindernisses mit Nachholung der Handlung (vgl. Art. 133 Abs. 3 DBG; Fristen im Skript prüfen)."
+},
+{
+"id": "st-019",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Umwandlung Einzelunternehmen → AG: Voraussetzungen für Steuerneutralität?",
+"antwort": "Art. 19 Abs. 1 lit. b DBG: Übertragung eines Betriebs oder Teilbetriebs, Fortbestand der Steuerpflicht in der Schweiz, Übernahme der bisherigen Einkommenssteuerwerte, 5 Jahre Veräusserungssperrfrist (sonst nachträgliche Besteuerung der stillen Reserven, Art. 19 Abs. 2 DBG). Zivilrechtlich: Vermögensübertragung nach Art. 69 ff. FusG (Umwandlungsbilanz max. 6 Monate alt)."
+},
+{
+"id": "st-020",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Selbständige Erwerbstätigkeit vs. private Vermögensverwaltung: Abgrenzungskriterien?",
+"antwort": "Gewinnerzielungsabsicht, planmässiges systematisches Vorgehen, Marktauftritt, Risiko, kurze Haltedauer, Transaktions-/Investitionsvolumen, Fremdfinanzierung, Reinvestition der Gewinne, Einsatz von Fachkenntnissen. Es genügt ein einziges Kriterium in besonders ausgeprägter Form (z. B. 100 % Fremdfinanzierung)."
+},
+{
+"id": "st-021",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Liebhaberei: Was ist das und was folgt steuerlich?",
+"antwort": "Tätigkeit ohne Gewinnerzielungsabsicht (z. B. jahrelange Verluste beim Pferdehof, Hobbycharakter). Die Verluste sind nicht mit anderem Einkommen verrechenbar; die Steuerbehörde stützt sich auf die natürliche Vermutung bei dauernden Verlusten."
+},
+{
+"id": "st-022",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Betriebsstätte: Voraussetzungen? Domizile und Methoden im interkantonalen Steuerrecht?",
+"antwort": "Betriebsstätte: feste körperliche Anlage/Einrichtung, qualitativ und quantitativ erhebliche Geschäftstätigkeit, Zugehörigkeit zum Unternehmen. Domizile: Haupt- (primäres) und Nebensteuerdomizil. Methoden: Objektmässige (direkte) und quotenmässige (indirekte) Ausscheidung; Vermeidung der Doppelbesteuerung: Anrechnungs- und Befreiungsmethode (mit/ohne Progressionsvorbehalt)."
+},
+{
+"id": "st-023",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Interkantonale Doppelbesteuerung: Die 5 Kriterien?",
+"antwort": "Gleiches Steuersubjekt, gleiches Steuerobjekt, gleiche Bemessungsperiode, verschiedene Steuerhoheiten, gleiche oder ähnliche Steuer."
+},
+{
+"id": "st-024",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "Steuerpflicht bei Liegenschaften juristischer Personen in anderen Kantonen: Beginn/Ende und Grundlage?",
+"antwort": "Persönliche Zugehörigkeit am Sitz (Art. 20 Abs. 1 StHG), wirtschaftliche Zugehörigkeit am Ort der Liegenschaft (Art. 21 Abs. 1 lit. c StHG). Die Steuerpflicht endet mit Ende der Steuerperiode, in der die Liegenschaft veräussert wurde (Art. 22 Abs. 2 StHG)."
+},
+{
+"id": "st-025",
+"fach": "702",
+"thema": "Prüfung 2025",
+"frage": "BVG-Einkauf: Voraussetzungen, Steuerfolge, Gesetzesartikel?",
+"antwort": "Einkaufspotenzial = reglementarisch maximales Altersguthaben – vorhandenes Guthaben (z. B. Lohnerhöhung, verspäteter Berufseinstieg, Scheidung, Ausbau des Plans). Der Einkauf ist vom steuerbaren Einkommen abziehbar: Art. 33 Abs. 1 lit. d DBG. Sperrfrist für Kapitalbezug 3 Jahre."
+},
+{
+"id": "rv-011",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Wertminderungstest: Was ist der erzielbare Betrag (Recoverable Amount) und wann liegt eine Wertbeeinträchtigung vor?",
+"antwort": "Erzielbarer Betrag = höherer Wert aus Nettoveräusserungswert (Fair Value abzüglich Veräusserungskosten) und Nutzungswert (Value in Use). Wertbeeinträchtigung, wenn der Buchwert den erzielbaren Betrag übersteigt; Wertminderung = Buchwert – erzielbarer Betrag."
+},
+{
+"id": "rv-012",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Vorräte: Niederstwertprinzip – wie bestimmst du den Bilanzwert?",
+"antwort": "Tieferer Wert aus Anschaffungskosten und Nettoveräusserungswert (Verkaufspreis – Verkaufskosten) bzw. Marktpreis (Art. 960c OR). Bei Verkäuflichkeitsproblemen gilt der Nettoveräusserungswert. Wertminderung: Bilanz Vorräte sinkt, Erfolgsrechnung Materialaufwand/Wertberichtigung."
+},
+{
+"id": "rv-013",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Langfristige Aufträge nach Swiss GAAP FER 22: Wie berechnest du Umsatz und Gewinn pro Jahr (PoC)?",
+"antwort": "Umsatz = Fertigstellungsgrad × Gesamterlös (Fertigstellungsgrad nach Baufortschritt oder Kostenverhältnis). Gewinn = Umsatz – angefallene Kosten des Jahres."
+},
+{
+"id": "rv-014",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Revisionsbericht eingeschränkte Revision: Welche Hinweise sind bei Verstössen nötig?",
+"antwort": "Hälftiger Kapitalverlust (Art. 725a OR, im Skript prüfen), fehlender Zwischenabschluss (Art. 725b OR), verbotene Kapitalrückzahlung/Einlagenrückgewähr (Art. 680 Abs. 2 OR), Erwerb eigener Aktien ohne freie Reserven (Art. 659 Abs. 1 OR), Fristen Geschäftsbericht/GV (Art. 958 Abs. 3 und Art. 699 Abs. 2 OR). Bei wesentlicher Falschaussage Einschränkung, bei Wesentlichkeit um ein Vielfaches Unmöglichkeit einer Prüfungsaussage. Vorjahr durch andere Revisionsstelle und Doppelmandat (Mitwirkung bei Buchführung) erwähnen."
+},
+{
+"id": "rv-015",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Prüfungsplanung: Wie gehst du bei Prüfungszielen, Prüfungshandlungen und Risiko vor?",
+"antwort": "Pro Position ein Prüfungsziel (Existenz, Vollständigkeit, Bewertung, Zuordnung, Ausweis), je zwei konkrete Prüfungshandlungen (Altersstruktur und Zahlungseingänge bei Debitoren, Inventurbeobachtung, Verträge/Belege, Saldobestätigung) und inhärentes Risiko hoch/mittel/niedrig mit Begründung (neue Methoden, Schätzungen, ungeklärte Buchungen → hoch)."
+},
+{
+"id": "rv-016",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Going Concern: Welche Faktoren beurteilst du bei hoher Verschuldung und Gläubigerzusage?",
+"antwort": "Finanzielle Lage: Liquiditätsprognose, Kapitalstruktur (Fremdkapitalquote). Fortführungsprämisse: Realismus der Annahmen, schriftliche Zusage (Bedingungen, Verbindlichkeit), Szenarioanalyse, Strategie/Turnaround. Zusage schriftlich dokumentieren lassen."
+},
+{
+"id": "rv-017",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Revisionspflicht: Schwellenwerte ordentliche und eingeschränkte Revision?",
+"antwort": "Ordentliche Revision: Publikumsgesellschaften oder zwei von drei Grössen in zwei aufeinanderfolgenden Jahren überschritten (Bilanzsumme 20 Mio., Umsatz 40 Mio., 250 Vollzeitstellen, Art. 727 OR). Eingeschränkte Revision: übrige. Opting-out bei höchstens 10 Vollzeitstellen im Jahresdurchschnitt (Art. 727a Abs. 2 OR). Werte im Skript prüfen."
+},
+{
+"id": "rv-018",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Verwaltungsrat bei drohender Zahlungsunfähigkeit und Überschuldung: Pflichten?",
+"antwort": "Überwachung der Zahlungsfähigkeit, Massnahmen/Sanierung, evtl. Nachlassstundung (Art. 725 OR); bei Kapitalverlust und Überschuldung Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, Prüfung durch Revisionsstelle, Gerichtsanzeige (Art. 725b OR); Rangrücktritt kann Gerichtsanzeige verhindern, muss Überschuldung und absehbare Verluste abdecken."
+},
+{
+"id": "rv-019",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Kapitalband und Kapitalerhöhung: Wichtige Regeln?",
+"antwort": "Kapitalband: Statutenänderung mit qualifizierter Mehrheit (2/3 der Stimmen und absolute Mehrheit des Kapitals, im Skript prüfen); Dauer max. 5 Jahre; Anhang muss Kapitalveränderungen innerhalb des Bandes ausweisen; Prüfungsbestätigung durch zugelassenen Revisor je nach Fall."
+},
+{
+"id": "rv-020",
+"fach": "703",
+"thema": "Prüfung 2025",
+"frage": "Handelsregisteranmeldung AG: Welche Unterlagen verlangt das Handelsregister?",
+"antwort": "Anmeldung, öffentliche Urkunde über den Errichtungsakt (inkl. Stampa-Erklärung seit 2023), Statuten, Wahlannahmeerklärungen (VR, Revisionsstelle), VR-Protokoll über Konstituierung und Zeichnungsberechtigungen, Lex-Koller-Erklärung, Bankbescheinigung der Einlagen, ggf. Domizilerklärung."
+},
+{
+"id": "uw-013",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Rechtsform Einzelunternehmen vs. AG: je 5 Vor- und Nachteile der AG",
+"antwort": "Vorteile: Haftung auf Gesellschaftsvermögen, Kapitalbeteiligung Dritter, höhere Kreditwürdigkeit, Anonymität der Aktionäre, Gewinn in der AG besteuert/Lohn-Dividenden-Optimierung, Vorsorge. Nachteile: Mindestkapital CHF 100'000, wirtschaftliche Doppelbelastung bei Dividenden, aufwendige Gründung, höherer Buchführungs-/Verwaltungsaufwand, höhere Liquidationskosten."
+},
+{
+"id": "uw-014",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Betreibungsverfahren: Ablauf und Fristen?",
+"antwort": "Betreibungsbegehren → Zahlungsbefehl (20 Tage zahlen) → Rechtsvorschlag innert 10 Tagen → Rechtsöffnung → Fortsetzungsbegehren (frühestens 20 Tage, spätestens 1 Jahr nach Zustellung) → Pfändung → Verwertungsbegehren (frühestens 1 Monat, spätestens 1 Jahr nach Pfändung) → Verlustschein (Verjährung 20 Jahre)."
+},
+{
+"id": "uw-015",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Vaterschaftsurlaub: Voraussetzungen, Dauer, Entschädigung?",
+"antwort": "Rechtlicher Vater, Erwerbstätigkeit zum Zeitpunkt der Geburt (oder Taggelder), 9 Monate AHV-versichert und mind. 5 Monate erwerbstätig. 2 Wochen, am Stück oder tageweise, innert 6 Monaten. Entschädigung 80 % des Einkommens, max. CHF 220 pro Tag."
+},
+{
+"id": "uw-016",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Kinderzulagen bei zwei erwerbstätigen Eltern: Wer ist anspruchsberechtigt?",
+"antwort": "Vorrang hat die Person, die im Wohnsitzkanton des Kindes arbeitet; die andere Person hat Anspruch auf die Differenz, wenn ihr Kanton höhere Zulagen kennt."
+},
+{
+"id": "uw-017",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Austritt während der Probezeit: Wie berechnest du den Bruttolohn?",
+"antwort": "Monatslohn pro rata (Kalendertage), 13. Monatslohn anteilig (inkl. auf pro-rata-Lohn), Ferienguthaben (Jahreslohn / 261 Arbeitstage × Tage, bzw. gemäss Reglement), Überstunden mit Zuschlag; Endresultat auf 5 Rappen runden."
+},
+{
+"id": "uw-018",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "BVG: Wie verbessere ich die Vorsorge von Inhabern und wann entsteht ein Einkaufspotenzial?",
+"antwort": "Massnahmen: Überobligatorium versichern, Koordinationsabzug kürzen, 1e-Plan, höhere Arbeitgeberfinanzierung, höhere Sparprämien. Einkaufspotenzial bei Lohnerhöhung, Stellenwechsel, spätem Berufseinstieg, Arbeitslosigkeit, Lücke durch Scheidung, Planausbau. Arbeitgeberbeitragsreserve: freiwillige Vorauszahlung, steuerlich abziehbar, nicht rückforderbar."
+},
+{
+"id": "uw-019",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Versicherungsschutz bei unbezahltem Urlaub: BVG und Unfall?",
+"antwort": "BVG: Risikodeckung endet 30 Tage nach der letzten Lohnzahlung, Weiterführung je nach Reglement möglich. UVG: Deckung endet am 31. Tag nach Ende des Anspruchs auf mindestens den halben Lohn; Abredeversicherung bis 6 Monate, danach Unfalldeckung über die Krankenkasse."
+},
+{
+"id": "uw-020",
+"fach": "700",
+"thema": "Prüfung 2025",
+"frage": "Haftung des Verwaltungsrats: Voraussetzungen?",
+"antwort": "Persönlich, solidarisch, unbeschränkt. Kumulativ: Pflichtverletzung als Organ, Schaden, adäquater Kausalzusammenhang, Verschulden."
+}
 ]

@@ -54,4 +54,29 @@ assert.strictEqual(500000 * 0.081 - 12000, e('e702-2').antwort);
 assert.strictEqual(200000 + 20000 - 130000, e('e703-1').antwort);
 assert.strictEqual((700000 + 2 * 1000000) / 3, e('e700-1').antwort);
 
+// Neue Rechenaufgaben (Prüfung 2025) nachrechnen
+assert.strictEqual(5000000 * 0.03 - 0.02 * 5150000, e('e701-7').antwort);
+assert.strictEqual(2680 * 52 - 2680 * 40, e("e701-8").antwort);
+assert.strictEqual(Math.round(51888 / 1.081), e('e701-9').antwort);
+assert.strictEqual(L.round(100 - 1670 / 4670 * 100, 2), e('e701-10').antwort);
+assert.strictEqual(Math.round(248630 / 1.081 * 0.4), e('e701-11').antwort);
+assert.strictEqual(L.round((43368 + 38920) / 1112000 * 100, 1), e('e701-12').antwort);
+assert.strictEqual(1445600 - (1363312 + 35000 - 47500) - 38920, e('e701-13').antwort);
+assert.strictEqual(1363312 + 43152 - 47500, e('e701-14').antwort);
+assert.strictEqual(30000 - (30000 - 10000), e('e701-15').antwort);
+assert.strictEqual(Math.round(3540 / 0.6), e('e701-16').antwort);
+assert.strictEqual(Math.round(3500 / 0.225), e('e701-17').antwort);
+assert.strictEqual(730000 / 2500, e('e701-18').antwort);
+assert.strictEqual(230000 - 124000 - 60000, e('e701-19').antwort);
+assert(Math.abs(12972 / 1.081 * 0.081 * 0.6 - e('e702-5').antwort) < 0.1);
+assert(Math.abs((180000 / 1.081 * 0.081) - (43200 / 1.081 * 0.081) - e('e702-6').antwort) < 0.6);
+assert(Math.abs(50590.8 / 1.081 * 0.009 * 4 - e('e702-7').antwort) < 0.1);
+assert(Math.abs(900000 - 650000 * 0.818 - e('e702-8').antwort) < 200);
+assert.strictEqual(15000 - (40000 - 30000), e("e702-9").antwort);
+assert.strictEqual(225000 - 100000, e('e703-5').antwort);
+assert.strictEqual(25000 + 10000, e('e703-6').antwort);
+assert.strictEqual(0.4 * 9000000 - 2400000, e('e703-7').antwort);
+assert.strictEqual(28000 + 234000 + 65000, e('e700-4').antwort);
+assert.strictEqual(130000 / 8 + 130000 / 2 * 0.06, e('e700-5').antwort);
+
 console.log('Alle Tests bestanden (' + cards.length + ' Karten, ' + exams.length + ' Prüfungsaufgaben).');
